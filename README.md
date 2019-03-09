@@ -1,6 +1,8 @@
 # p-all-with-failures
 A wrapper for using promise all with failures.
 
+[![Build Status](https://travis-ci.org/Mohit21GoJs/p-all-with-failures.svg?branch=master)](https://travis-ci.org/Mohit21GoJs/p-all-with-failures)
+
 ### For running locally ###
 `yarn install`
 
