@@ -1,6 +1,6 @@
 {
   "name": "p-all-with-failures",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wrapper on promise all for returning failures ",
   "main": "index.js",
   "repository": "https://github.com/Mohit21GoJs/p-all-with-failures.git",
@@ -8,8 +8,8 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "jest": "^24.3.1",
-    "coveralls": "^3.0.3"
+    "coveralls": "^3.0.3",
+    "jest": "^24.3.1"
   },
   "scripts": {
     "test": "jest"
