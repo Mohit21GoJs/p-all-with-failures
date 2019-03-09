@@ -6,5 +6,11 @@
   "repository": "https://github.com/Mohit21GoJs/p-all-with-failures.git",
   "author": "Mohit Yadav",
   "license": "MIT",
-  "private": null
+  "private": false,
+  "devDependencies": {
+    "jest": "^24.3.1"
+  },
+  "scripts": {
+    "test": "jest"
+  }
 }

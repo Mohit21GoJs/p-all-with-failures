@@ -14,7 +14,7 @@ const idFunc = val => val;
 
 const promiseAllWithFailures = inputArr => {
   if (!validateInput(inputArr)) {
-    throw new Error('Input must be an array');
+    return Promise.reject(new Error('Input must be an array'));
   }
   return Promise.all(
     inputArr.map(input => {
@@ -23,3 +23,5 @@ const promiseAllWithFailures = inputArr => {
     }),
   );
 };
+
+module.exports = promiseAllWithFailures;
