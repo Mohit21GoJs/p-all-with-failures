@@ -24,4 +24,6 @@ const promiseAllWithFailures = inputArr => {
   );
 };
 
-module.exports = promiseAllWithFailures;
+exports.promiseAllWithFailures = promiseAllWithFailures;
+
+module.exports = exports;

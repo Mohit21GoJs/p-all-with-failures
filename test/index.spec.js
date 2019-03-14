@@ -1,4 +1,4 @@
-const index = require('../src/index');
+const index = require('../src/index').promiseAllWithFailures;
 
 describe('promiseAllWithFailures', () => {
   it('should return error if invalid input type', async () => {

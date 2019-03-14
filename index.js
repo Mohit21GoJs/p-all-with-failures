@@ -1,3 +1,4 @@
-const promiseAllWithFailures = require('./src').promiseAllWithFailures;
+const src = require('./src');
 
-module.exports = promiseAllWithFailures;
+exports.promiseAllWithFailures = src.promiseAllWithFailures;
+module.exports = exports;
